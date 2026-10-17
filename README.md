@@ -4,7 +4,7 @@
 
 A self-study guide to Mandarin for everyday conversation, built on the HSK 3.0 word list, levels 1–5 (4,316 words). It has four parts:
 
-- **Words:** 20 words a day. Each word has tone-coloured pinyin, a recording, its meaning, and three example sentences. Every example has pinyin, audio, an English translation and a short analysis of what the word does in it. Each day ends with a test.
+- **Words:** 20 words a day over 217 days. Each word has tone-coloured pinyin, its meaning, and three example sentences with pinyin and an English translation. In levels 1–2, every example also has audio and a short analysis of what the word does in it. Each day ends with a test.
 - **Conversations:** model dialogues for everyday situations. Each comes with structure labels, a meaning for every word, and audio for every line. There are also pattern templates, a phrase bank and words grouped by topic.
 - **Glossary:** tones, sounds, spelling rules and tone changes, with a pinyin chart and optional listening drills.
 - **Progress:** which words you have opened and how your tests went.
@@ -30,7 +30,7 @@ I wanted the format that worked for my [GRE Lexicon](https://github.com/quan-nk/
    - **3 example sentences**. Tap any word in a sentence for its meaning, and tap the speaker to hear the sentence.
 
    Under **More** you'll find common combinations, related words and dictionary links.
-3. **Listen** plays the whole day hands-free: each word twice, then its three examples, then the next word.
+3. **Listen** (levels 1–2) plays the whole day hands-free: each word twice, then its three examples, then the next word.
 4. Finish with the 21st tab, **Test**. It shuffles the day's sentences with the word blanked out.
    - Pick from 4 options, or type the pinyin (tones optional).
    - Missed sentences come back at the end, and the word tabs turn green or red as you go.
@@ -69,7 +69,7 @@ Your progress (words opened, test results, conversations read) is saved in your 
   - every pinyin reading must be valid;
   - sentences must stay within a length limit.
 - **Levels 1–2** (days 1–64) had two independent AI reviewers per day, one for natural Mandarin and one for the accuracy of every explanation. A fix pass followed. Then a different model re-read every finished file: it found 156 more serious and 883 minor problems, and they were fixed.
-- **Levels 3–5** (days 65–217) had a lighter check: one AI draft, then one AI reviewer who also fixed what it found. Expect more slips there.
+- **Levels 3–5** (days 65–217) and their 60 conversations were written by Claude in a single pass, in the style of the HSK Standard Course, and checked by the same script. Apart from day 65 and the first conversation, no AI reviewer read them, so expect more slips there. These days have pinyin but no sentence recordings and no per-sentence analysis.
 - **Audio:** words and syllables are human recordings. Sentences and conversation lines use a neural voice (Qwen3-TTS, generated locally). Speech recognition then transcribed each clip back: for levels 1–2, 4,474 of 4,627 sentences and lines matched syllable for syllable.
 
 No native speaker has reviewed the content yet. If you spot a mistake, please open an issue.
